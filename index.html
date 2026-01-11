@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SPECTRA VERSA LLC — Consulting & Support Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1e1e1e;
+    line-height: 1.6;
+    background-color: #fafafa;
+}
+
+h1, h2, h3 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1561714813-4f3b8e4c7f77?w=1600') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-content {
+    position: relative;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background: #ffcf3d;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 6px 6px 0 #ffcf3d;
+}
+
+.section-title {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+/* SERVICES */
+.services-grid,
+.benefits-grid,
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    background: #fff;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+.contact {
+    position: relative;
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1561714813-4f3b8e4c7f77?w=1600') center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.contact-content {
+    position: relative;
+    max-width: 900px;
+}
+
+.contact form {
+    margin-top: 30px;
+    background: rgba(255,255,255,0.95);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 12px 25px;
+    background: #ffcf3d;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 40px 10%;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>SPECTRA VERSA LLC</h1>
+        <p>
+            Strategic business management, operational support, and technical consulting tailored for growing and established companies.  
+            We help organizations clarify direction, improve internal processes, and turn complex challenges into structured, actionable solutions.
+        </p>
+        <a href="#contact" class="btn">Contacts</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section>
+    <div class="about">
+        <img src="https://plus.unsplash.com/premium_photo-1683120751955-3d7c14887ac8?w=600" alt="Office">
+        <div>
+            <h2 class="section-title">Who We Are & How We Think</h2>
+            <p>
+                SPECTRA VERSA LLC is a consulting company focused on practical business clarity rather than abstract theory.  
+                We work closely with leadership teams to understand how decisions are actually made and where operations slow down.  
+                Our approach combines business management insight, administrative structure, and technical understanding.  
+                This allows us to bridge the gap between strategy, execution, and internal support systems.  
+                We believe sustainable growth starts with clear processes, accountable roles, and measurable outcomes.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section>
+    <h2 class="section-title">What We Do Best</h2>
+    <div class="services-grid">
+        <div class="card">
+            <h3>Business Management Consulting</h3>
+            <p>
+                We analyze how your business is structured, how decisions flow, and where inefficiencies appear.  
+                Our consulting focuses on improving management frameworks, reporting logic, and operational alignment.  
+                The goal is to help leadership make faster, better-informed decisions.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Administrative & Support Services</h3>
+            <p>
+                We design and optimize administrative processes that support daily operations without creating overload.  
+                This includes workflow organization, documentation standards, and internal coordination models.  
+                Well-structured support systems free up management time and reduce operational friction.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Technical Consulting Services</h3>
+            <p>
+                We assist companies in translating technical complexity into understandable business actions.  
+                Our team helps evaluate tools, systems, and technical processes from a business perspective.  
+                This ensures technology supports strategy rather than complicating it.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- BENEFITS -->
+<section>
+    <h2 class="section-title">Why Clients Choose SPECTRA VERSA</h2>
+    <div class="benefits-grid">
+        <div class="card">
+            <h3>Clear, Practical Guidance</h3>
+            <p>
+                We avoid generic advice and focus on solutions that can actually be implemented within your organization.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Cross-Functional Perspective</h3>
+            <p>
+                Our work connects management, administration, and technical realities into one coherent approach.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Long-Term Value Focus</h3>
+            <p>
+                We aim to build systems and processes that continue delivering value after the engagement ends.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+    <h2 class="section-title">Our Working Process</h2>
+    <div class="process-grid">
+        <div class="card">
+            <h3>1. Assessment & Discovery</h3>
+            <p>
+                We begin by understanding your business structure, challenges, and objectives through focused analysis.
+            </p>
+        </div>
+        <div class="card">
+            <h3>2. Structured Solutions</h3>
+            <p>
+                Based on insights, we design clear recommendations, frameworks, and operational improvements.
+            </p>
+        </div>
+        <div class="card">
+            <h3>3. Support & Adjustment</h3>
+            <p>
+                We assist during implementation and refine solutions to ensure they work in real conditions.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <div class="overlay"></div>
+    <div class="contact-content">
+        <h2 class="section-title">Let’s Start</h2>
+        <p>
+            If you’re looking for clear direction, operational stability, or expert consulting support, we’d be glad to connect.  
+            Reach out by email or send us a short message — we respond promptly and thoughtfully.
+        </p>
+        <p>
+            <strong>Email:</strong> info@spectraversa.biz<br>
+            <strong>Address:</strong> 5380 Baywater Dr, Tampa, FL 33615
+        </p>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea rows="4" placeholder="Briefly describe your request"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 SPECTRA VERSA LLC. All rights reserved.</p>
+    <p>Business Management Consulting • Administrative Support • Technical Consulting</p>
+</footer>
+
+</body>
+</html>
